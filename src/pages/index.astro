@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const yearsOfExperience = new Date().getFullYear() - 2016;
+---
+
+
+<Layout>
+  <section class="bg-white dark:bg-gray-800 mb-8">
+    <div class="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8">
+        <p class="text-sm font-normal text-gray-500 lg:text-base dark:text-gray-400">Hola, mi nombre es</p>
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Diego Cáceres</h1>
+        <h2 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Full Stack Developer</h2>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+          Soy un Ingeniero Civil Informático con una especialización destacada en tecnologías de Microsoft, en particular .NET (Framework y Core), además de sólidos conocimientos en Angular y Laravel. 
+        </p>
+    </div>
+  </section>
+  
+  <section class="bg-gray-100 dark:bg-gray-800 mb-8">
+    <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="mb-4 text-3xl font-bold tracking-tight leading-none text-gray-900 md:text-4xl dark:text-white">Acerca de mí</h2>
+        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-4">
+          Sigues lidiando con sistemas antiguos que no cumplen con tus necesidades? ¿Todavía dependes de Excel para tareas críticas? Permíteme presentarme, soy Diego, un experimentado programador .NET con una sólida experiencia de {yearsOfExperience} años en el campo del desarrollo de software.
+        </p>
+        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+          Mi misión es catalizar la innovación y aumentar la eficiencia mediante la implementación de soluciones tecnológicas modernas y efectivas.
+        </p>
+        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mt-4">
+          Si estás buscando dejar atrás los obstáculos tecnológicos obsoletos y avanzar hacia un futuro más eficiente y efectivo, estoy aquí para ayudarte a lograrlo.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img src="/me.jpg" alt="Foto de Diego Cáceres" class="rounded-lg shadow-lg" height="400" width="300" />
+      </div>
+    </div>
+  </section>
+</Layout>
+
