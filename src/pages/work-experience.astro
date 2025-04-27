@@ -1,0 +1,88 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <div class="w-full p-4 bg-white border border-gray-200 shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700 mb-8">
+        <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white mb-5">Educación</h5>
+        <div class="flex flex-col sm:flex-row sm:space-x-4 rtl:space-x-reverse">
+            <!-- Columna izquierda -->
+            <div class="w-full">
+                <ol class="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400">
+                    <li class="ms-6">
+                        <span class="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="m6 10.5237-2.27075.6386C3.29797 11.2836 3 11.677 3 12.125V20c0 .5523.44772 1 1 1h2V10.5237Zm12 0 2.2707.6386c.4313.1213.7293.5147.7293.9627V20c0 .5523-.4477 1-1 1h-2V10.5237Z"/>
+                                <path fill-rule="evenodd" d="M12.5547 3.16795c-.3359-.22393-.7735-.22393-1.1094 0l-6.00002 4c-.45952.30635-.5837.92722-.27735 1.38675.30636.45953.92723.5837 1.38675.27735L8 7.86853V21h8V7.86853l1.4453.96352c.0143.00957.0289.01873.0435.02746.1597.09514.3364.14076.5112.1406.3228-.0003.6395-.15664.832-.44541.3064-.45953.1822-1.0804-.2773-1.38675l-6-4ZM10 12c0-.5523.4477-1 1-1h2c.5523 0 1 .4477 1 1s-.4477 1-1 1h-2c-.5523 0-1-.4477-1-1Zm1-4c-.5523 0-1 .44772-1 1s.4477 1 1 1h2c.5523 0 1-.44772 1-1s-.4477-1-1-1h-2Z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                        <p class="text-sm">Universidad Católica del Maule</p>
+                        <p class="text-sm">Marzo 2008 - Diciembre 2015</p>
+                        <div class="p-4 mt-2 bg-gray-100 rounded-lg dark:bg-gray-700 w-full">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                                Ingenierio Civil Informatico
+                                <button 
+                                    class="ml-4 px-3 py-1 text-sm text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    onclick="window.open('/Titulo.pdf', '_blank')">
+                                    Ver Certificado
+                                </button>
+                            </h3>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full p-4 bg-white border border-gray-200 shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white mb-5">Experiencia</h5>
+        <div class="flex flex-col sm:flex-row sm:space-x-4 rtl:space-x-reverse">
+            <!-- Columna izquierda -->
+            <div class="w-full">
+                <ol class="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400">
+                    <li class="mb-10 ms-6">
+                        <span class="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="m6 10.5237-2.27075.6386C3.29797 11.2836 3 11.677 3 12.125V20c0 .5523.44772 1 1 1h2V10.5237Zm12 0 2.2707.6386c.4313.1213.7293.5147.7293.9627V20c0 .5523-.4477 1-1 1h-2V10.5237Z"/>
+                                <path fill-rule="evenodd" d="M12.5547 3.16795c-.3359-.22393-.7735-.22393-1.1094 0l-6.00002 4c-.45952.30635-.5837.92722-.27735 1.38675.30636.45953.92723.5837 1.38675.27735L8 7.86853V21h8V7.86853l1.4453.96352c.0143.00957.0289.01873.0435.02746.1597.09514.3364.14076.5112.1406.3228-.0003.6395-.15664.832-.44541.3064-.45953.1822-1.0804-.2773-1.38675l-6-4ZM10 12c0-.5523.4477-1 1-1h2c.5523 0 1 .4477 1 1s-.4477 1-1 1h-2c-.5523 0-1-.4477-1-1Zm1-4c-.5523 0-1 .44772-1 1s.4477 1 1 1h2c.5523 0 1-.44772 1-1s-.4477-1-1-1h-2Z" clip-rule="evenodd"/>
+                            </svg>
+                        </span>
+                        <p class="text-sm">Facultad de Economia y Negocios Universidad de Chile</p>
+                        <p class="text-sm">Octubre 2021 - Actualidad</p>
+                        <div class="p-4 mt-2 bg-gray-100 rounded-lg dark:bg-gray-700 w-full">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Desarrollador de Software</h3>
+                            <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">
+                                <ul class="list-disc pl-5 space-y-2">
+                                    <li class="text-gray-600 dark:text-gray-300">Diseño y desarrollo de aplicaciones de gestión académica, destacando la creación de plataformas integrales que incluyen herramientas para el seguimiento del rendimiento académico y el aprendizaje en línea, mejorando la eficiencia y la experiencia de usuarios.</li>
+                                    <li class="text-gray-600 dark:text-gray-300">Responsable de la mantención y actualización continua de los sistemas informáticos esenciales de la facultad, asegurando la estabilidad y seguridad de las aplicaciones.</li>
+                                    <li class="text-gray-600 dark:text-gray-300">Formación y apoyo a usuarios finales en el uso de las aplicaciones desarrolladas, asegurando una transición fluida y una adopción exitosa.</li>
+                                    <li class="text-gray-600 dark:text-gray-300">Participación en procesos de pruebas, identificación y resolución proactiva de problemas, garantizando la entrega de productos libres de errores.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="ms-6">
+                        <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -start-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
+                            <svg class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                                <path d="M18 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2ZM6.5 3a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3.014 13.021l.157-.625A3.427 3.427 0 0 1 6.5 9.571a3.426 3.426 0 0 1 3.322 2.805l.159.622-6.967.023ZM16 12h-3a1 1 0 0 1 0-2h3a1 1 0 0 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Zm0-3h-3a1 1 0 1 1 0-2h3a1 1 0 1 1 0 2Z"/>
+                            </svg>
+                        </span>
+                        <p class="text-sm">Hospital Clinico Universidad de Chile</p>
+                        <p class="text-sm">Agosto 2015 - Septiembre 2021</p>
+                        <div class="p-4 mt-2 bg-gray-100 rounded-lg dark:bg-gray-700 w-full">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Analista Programador</h3>
+                            <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">
+                                <ul class="list-disc pl-5 space-y-2">
+                                    <li class="text-gray-600 dark:text-gray-300">Diseño y desarrollo de sistemas de información clínica personalizados que agilizaron el acceso a los registros médicos,mejorando la eficiencia en la toma de de decisiones clínicas</li>
+                                    <li class="text-gray-600 dark:text-gray-300">Implementación de soluciones de integración de datos que permitieron la interoperabilidad entre diferentes sistemas y departamentos</li>
+                                    <li class="text-gray-600 dark:text-gray-300">Desarrollo y mejora de funcionalidades en aplicaciones internas, contribuyendo al incremento de la productividad y la experiencia del usuario.</li>
+                                    <li class="text-gray-600 dark:text-gray-300">Brindar soporte técnico y resolución de problemas relacionados con los sistemas implementados, asegurando un funcionamiento ininterrumpido.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</Layout>
