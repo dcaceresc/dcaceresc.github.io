@@ -16,7 +16,7 @@ En el tercer capítulo de Así habló Zaratustra, el filósofo y filólogo alem�
 
 Este derrumbe no significa únicamente la pérdida de una creencia religiosa, sino la fractura profunda de un sistema de valores que, durante siglos, sirvió como sostén y brújula para la vida humana. Sin ese punto fijo, la moral se vuelve relativa, las certezas se desvanecen y la búsqueda de sentido se transforma en un reto angustiante. La sociedad postmoderna, con su énfasis en el pluralismo y la fragmentación, refleja esta realidad: múltiples verdades coexisten sin una jerarquía clara, y el vacío dejado por la ausencia de un sentido último se vuelve palpable.
 
-Nietzsche no dejó su crítica sin alternativa. Su propuesta era la creación de **nuevos valores**, surgidos de una voluntad de poder que afirme la vida. El ideal del *Übermensch* (superhombre) representa al individuo capaz de asumir la responsabilidad de crear sentido y vivir con autenticidad, sin necesidad de recurrir a verdades externas impuestas.
+Nietzsche no dejó su crítica sin alternativa. Propuso que, ante la ausencia de valores absolutos, corresponde a cada individuo la tarea de crear sus **propios valores** y encontrar sentido a la existencia a través de una vida auténtica, sin depender de verdades externas impuestas.
 
 Sin embargo, esta tarea es ardua y requiere un coraje radical, pues implica renunciar a la comodidad de las certezas heredadas y enfrentar la libertad plena —y la soledad— del individuo moderno.
 
