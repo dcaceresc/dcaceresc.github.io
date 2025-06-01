@@ -134,8 +134,8 @@ const posts = (await getCollection('blog')).sort(
                                         
                                     </div>
                                 )}
-
-                                {post.data.tags && (
+                            </a>
+                            {post.data.tags && (
                                     <div>
                                         {post.data.tags.split(',').map(tag => (
                                             <span class="inline-flex items-center bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-indigo-900 dark:text-indigo-300 mr-2" style="margin-bottom: 0.25rem;">
@@ -144,8 +144,6 @@ const posts = (await getCollection('blog')).sort(
                                         ))}
                                     </div>
                                 )}
-
-                            </a>
                         </li>
                     ))
                 }
