@@ -19,3 +19,11 @@ npm run build
 npm run preview
 ```
 
+## Verificación de portada y navegación
+
+```sh
+npm run build && node --test tests/portfolio.test.mjs
+```
+
+Las pruebas comprueban el HTML generado: presentación profesional, enlaces de proyectos y contacto, orden del menú, sección activa en cada página y atributos del menú móvil. No sustituyen la revisión visual ni la interacción con el menú en un navegador.
+

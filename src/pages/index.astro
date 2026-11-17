@@ -1,35 +1,36 @@
 ---
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
-
-const yearsOfExperience = new Date().getFullYear() - 2016;
 ---
 
-
 <Layout>
-  <section class="bg-white dark:bg-gray-800 mb-8">
+  <section class="bg-white dark:bg-gray-800 mb-8" aria-labelledby="intro-title">
     <div class="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8">
-        <p class="text-sm font-normal text-gray-500 lg:text-base dark:text-gray-400">Hola, mi nombre es</p>
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Diego Cáceres</h1>
-        <h2 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Full Stack Developer</h2>
-        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-          Soy un Ingeniero Civil Informático con una especialización destacada en tecnologías de Microsoft, en particular .NET (Framework y Core), además de sólidos conocimientos en Angular y Laravel. 
-        </p>
+      <p class="mb-2 text-sm font-medium text-gray-600 lg:text-base dark:text-gray-300">Ingeniero Civil Informático</p>
+      <h1 id="intro-title" class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Diego Cáceres</h1>
+      <h2 class="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl dark:text-white">Desarrollador Full Stack .NET</h2>
+      <p class="mx-auto mb-6 max-w-2xl text-lg text-gray-600 lg:text-xl dark:text-gray-300">
+        Desarrollo y mantengo aplicaciones web con .NET Framework, .NET Core y Angular.
+        Mi experiencia incluye sistemas de gestión académica y clínica e integración de datos.
+      </p>
+      <div class="flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
+        <a href="/projects" class="inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 font-medium text-white hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus-visible:outline-blue-400">Ver proyectos</a>
+        <a href="/contact" class="inline-flex items-center justify-center rounded-lg border border-gray-400 px-5 py-3 font-medium text-gray-900 hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-700 dark:border-gray-500 dark:text-white dark:hover:bg-gray-700 dark:focus-visible:outline-blue-400">Contactar</a>
+      </div>
     </div>
   </section>
-  
-  <section class="bg-gray-100 dark:bg-gray-800 mb-8">
+
+  <section class="bg-gray-100 dark:bg-gray-800 mb-8" aria-labelledby="about-title">
     <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
       <div>
-        <h2 class="mb-4 text-3xl font-bold tracking-tight leading-none text-gray-900 md:text-4xl dark:text-white">Acerca de mí</h2>
-        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mb-4">
-          Sigues lidiando con sistemas antiguos que no cumplen con tus necesidades? ¿Todavía dependes de Excel para tareas críticas? Permíteme presentarme, soy Diego, un experimentado programador .NET con una sólida experiencia de {yearsOfExperience} años en el campo del desarrollo de software.
+        <h2 id="about-title" class="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl dark:text-white">Acerca de mí</h2>
+        <p class="mb-4 text-lg text-gray-600 dark:text-gray-300">
+          He trabajado en el desarrollo, mantenimiento e integración de aplicaciones para educación y salud,
+          colaborando en pruebas y soporte a usuarios.
         </p>
-        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-          Mi misión es catalizar la innovación y aumentar la eficiencia mediante la implementación de soluciones tecnológicas modernas y efectivas.
-        </p>
-        <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 mt-4">
-          Si estás buscando dejar atrás los obstáculos tecnológicos obsoletos y avanzar hacia un futuro más eficiente y efectivo, estoy aquí para ayudarte a lograrlo.
+        <p class="text-lg text-gray-600 dark:text-gray-300">
+          Busco aportar mi experiencia en .NET a un equipo de desarrollo.
+          En este portafolio puedes conocer mis proyectos, mi trayectoria y las tecnologías con las que trabajo.
         </p>
       </div>
       <div class="flex justify-center">
@@ -38,4 +39,3 @@ const yearsOfExperience = new Date().getFullYear() - 2016;
     </div>
   </section>
 </Layout>
-
